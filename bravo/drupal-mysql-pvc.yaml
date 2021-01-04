@@ -3,7 +3,6 @@ kind: PersistentVolumeClaim
 metadata:
   name: drupal-mysql-pvc
 spec:
-  storageClassName: manual
   accessModes:
     - ReadWriteOnce
   resources:
