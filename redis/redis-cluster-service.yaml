@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: redis-cluster-service
-  name: gop-fs-service
+  name: redis-cluster-service
 spec:
   ports:
   - name: client
