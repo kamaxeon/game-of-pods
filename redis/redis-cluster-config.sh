@@ -1,0 +1,1 @@
+printf 'yes\n' | kubectl exec -it redis-cluster-0 -- redis-cli --cluster create --cluster-replicas 1 10.32.0.193:6379 10.32.0.194:6379 10.32.0.195:6379 10.32.0.196:6379 10.32.0.197:6379 10.32.0.198:6379 
